@@ -1,0 +1,31 @@
+.orderForm li{
+	float: left;
+	width: 49.5%;
+	height: 2rem;
+	font-size: 1rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.orderForm li a{
+	display: block;
+	width: 100%;
+	height: 2rem;
+	font-size: 1rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.orderForm li a:hover{
+	border-bottom: 0.075rem solid red;
+}
+.orderForm li:nth-child(1){
+	border-right: 0.05rem solid #ccc;
+}
+.noOrderForm{
+	clear: both;
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	font-size: 1rem;
+	background: #C0C0C0;
+}

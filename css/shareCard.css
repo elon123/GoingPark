@@ -1,0 +1,79 @@
+#wrapper li{
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px solid #8C8C8C;
+}
+#wrapper li:last-child{
+	border-bottom: 1px solid #8C8C8C;
+}
+#wrapper h3{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+#wrapper span{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+#wrapper li span{
+	text-indent: 15px;
+}
+#wrapper li:nth-child(2) span{
+	text-indent: 27px;
+}
+#wrapper input{
+	width: 50%;
+	height: 28px;
+	border: none;
+	float: left;
+}
+#wrapper button{
+	background: #FF0000;
+	border: none;
+	height: 90%;
+	margin-bottom: 1%;
+	line-height: 100%;
+	color: white;
+}
+
+#submit{
+	padding: 0 20px;
+}
+#submit li:nth-child(1){
+	width: 100%;
+	text-align: center;
+	border: 1px dashed #8C8C8C;
+	margin-bottom: 20px;
+	background:url(../img/hong.jpg) no-repeat;
+	background-size: 30% 50%;
+	background-position: 50% 0%;
+}
+#submit li:nth-child(1) input{
+	cursor: pointer;
+	margin: 0 auto;
+	opacity: 0;
+}
+#submit li:nth-child(2) button:nth-child(1){
+	float: left;
+	width: 40%;
+	border: none;
+	background: red;
+	color: white;
+	padding: 5px 0;
+}
+#submit li:nth-child(2) button:nth-child(2){
+	float: right;
+	width: 40%;
+	border: none;
+	background: red;
+	color: white;
+	padding: 5px 0;
+}
+
+
+
+
+
+

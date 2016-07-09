@@ -1,0 +1,39 @@
+.lenjoy img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5rem;
+}
+.main-div{
+	position: relative;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.main-img{
+	width: 100%;
+	height: auto;
+}
+.main-p1{
+	position: absolute;
+	top: 6.3rem;left: 1.2rem;
+	color: white;
+}
+.main-p2{
+	position: absolute;
+	top: 7.5rem;left: 1.2rem;
+	width: 100%;
+	color: white;
+}
+.main-p2 span{
+	float: right;
+	margin-right: 2rem;
+}
+.main-img2{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.main-img3{
+	position: absolute;
+	top: 6rem;
+	right: 2.5rem;
+}

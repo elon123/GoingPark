@@ -1,0 +1,130 @@
+#header nav .container-fluid .row div{
+	color: white;
+	line-height: 50px;
+}
+.col-xs-4 .point{
+	color: red;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}
+#redPacket li{
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+.redPacket li{
+	margin: 0;
+	padding: 0;
+}
+.redPacket li:nth-child(1) img{
+	float: left;
+}
+.redPacket li:nth-child(2) img{
+	float: right;
+}
+.recommend li{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+#recommend{
+	margin: 0;
+	padding: 0;
+}
+.recommend a{
+	display: block;
+	color: red;
+	font-size: 20px;
+	line-height: 30px;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	text-align: center;
+	width: 80px;
+	margin-left: 20px;
+}
+.row li{
+	margin: 0;
+	padding: 10px 0;
+}
+.menu{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	bottom: 0;
+	background: white;
+}
+.menu li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+.menu li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+
+.enter{
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	
+}
+.enter>img{
+	width: 100%;
+	height: 100%;
+}
+.enter-ul{
+	width: 60px;
+	height: 60px;
+	background: red;
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	border-radius: 50%;
+	background: #c93998;
+	animation: myfirst 3s linear infinite;
+	z-index: 99;
+	/*-webkit-animation: enter 2s linear infinite;*/
+}
+@keyframes myfirst{
+	0%{
+		background: #c93998;
+		opacity: .8;
+	}
+	100%{
+		background: #e61e5b;
+		opacity: .4;
+	}
+}
+
+.enter-ul img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+<div id="body">
+	<ul class="classify">
+		<li class="classify-li">
+			<a href="javascript:void(0)">分类</a>
+		</li>
+		<li class="classify-li2">
+			<a href="javascript:void(0)">全城</a>
+		</li>
+		<li class="classify-li3">
+			<a href="javascript:void(0)">排序</a>
+		</li>
+	</ul>
+	<div class="mask"></div>
+	<div id="sortBox"></div>
+</div>
+<br />
+<div class="main" id="mainBox"></div>
+
+
+
+
+<script id="contentBoxSort" type="text/html">
+		<%if(sort.length>1) { %>
+			<%for(var i=0;i<sort.length;i++){%>
+			<li class="liSort">
+				<a class="sort-a"><%=sort[i]["name"]%></a>
+			</li>
+			<%}%>
+		<%}else{%>
+			<h2>没有list数据</h2>
+		<%}%>
+</script>
+<script type="text/javascript">
+			var xhr1=new XMLHttpRequest();
+			xhr1.open("GET","data/sort.json",true);
+			xhr1.send(null);
+			xhr1.onreadystatechange=function(){
+				console.log(xhr1.status);
+				console.log(xhr1.readyState)
+				if(xhr1.status==200&&xhr1.readyState==4){
+					var objsSort=JSON.parse(xhr1.responseText);
+					var html = baidu.template('contentBoxSort',objsSort);
+					document.getElementById('sortBox').innerHTML = html;
+				}
+			}
+</script>
+
+
+
+
+
+
+
+<script id="contentBox" type="text/html">
+		<%if(data.length>1) { %>
+			<ul class="ulImg">
+				<%for(var i=0;i<data.length;i++){%>
+				<li class="liImg">
+					<a href="tpl/particulars.html"><img class="img load-img" src="./img/1.jpg" data-src=<%=data[i]["img"]%> /></a>
+					<img class="img-2" src="img/border.gif"/>
+					<img class="img-3" src="img/map.gif"/>
+					<p class="li-p1"><%=data[i].name%></p>
+					<p class="li-p2"><%=data[i].address%></p>
+				</li>
+				<%}%>
+			</ul>
+			<%}else{%>
+			<h2>没有list数据</h2>
+		<%}%>
+</script>
+<script type="text/javascript">
+			var xhr=new XMLHttpRequest();
+			xhr.open("GET","data/p2.json");
+			xhr.send(null);
+			xhr.onreadystatechange=function(){
+				if(xhr.status=200&&xhr.readyState==4){
+					var objs=JSON.parse(xhr.responseText);
+					var html = baidu.template('contentBox', objs);
+					document.getElementById('mainBox').innerHTML = html;
+				}
+			}
+</script>
+<script type="text/javascript">
+	lazyLoad.init();
+</script>

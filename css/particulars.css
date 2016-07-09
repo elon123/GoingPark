@@ -1,0 +1,135 @@
+
+.wrapper{
+	width: 27rem;
+	height: 48rem;
+	background: #EEEEEE;
+}
+#park{
+	padding: 0 0.9rem;
+	padding-top: 2rem;
+	background: white;
+}
+.park{
+	width: 100%;
+	height: 5.25rem;
+	border-bottom: 0.075rem solid #EEEEEE;
+}
+.park>p:nth-child(1){
+	font-size: 1.25rem;
+}
+.park>p:nth-child(2){
+	font-size: 0.9rem;
+	margin-top: 2rem;
+}
+.park-address{
+	width: 100%;
+	height: 4rem;
+}
+.park-address img{
+	float: left;
+	margin-top: 0.5rem;
+}
+.park-address a{
+	display: inline-block;
+	font-size: 1.1rem;
+	width: 20rem;
+	line-height: 1.5;
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.park-address span{
+	float: left;
+	font-size: 1.5rem;
+	margin-top: 0.75rem;
+}
+.product{
+	padding: 0 0.75rem;
+	background: white;
+	margin-top: 1rem;
+}
+.product>li:nth-child(1){
+	width: 100%;
+	height: 3.7rem;
+	font-size: 1.25rem;
+	line-height: 3.7rem;
+	border-bottom: 0.075rem solid #EEEEEE;
+}
+#product-li{
+	width: 100%;
+	height: 7rem;
+	background: white;
+	border-bottom: 0.075rem solid #EEEEEE;
+}
+#product-li>ul:nth-child(1){
+	width: 15rem;
+	float: left;
+}
+#product-li>ul:nth-child(1)>li:nth-child(1){
+	font-size: 1.1rem;
+	margin-top: 1.1rem;
+	line-height: 1.1rem;
+}
+#product-li>ul:nth-child(1)>li:nth-child(2){
+	font-size: 1.1rem;
+	margin-top: 1.1rem;
+	line-height: 1.1rem;
+}
+#product-li>ul:nth-child(1)>li:nth-child(2)>span:nth-child(1){
+	color: red;
+}
+#product-li>ul:nth-child(1)>li:nth-child(2)>span:nth-child(2){
+	font-size: 0.75rem;
+	margin-left: 1rem;
+	text-decoration: line-through;
+}
+#product-li>ul:nth-child(1)>li:nth-child(2)>span:nth-child(3){
+	font-size: 0.75rem;
+	margin-left: 1rem;
+	background: #fdd22b;
+	padding: 0.3rem;
+	color: white;
+	border-radius: 0.2rem;
+}
+#product-li>ul:nth-child(1)>li:nth-child(3){
+	font-size: 1.1rem;
+	margin-top: 1.1rem;
+	line-height: 1.1rem;
+	color: red;
+	float: right;
+}
+
+#product-li>ul:nth-child(2){
+	float: right;
+	margin-top: 0.5rem;
+}
+
+#product-li>ul:nth-child(2)>li:nth-child(1){
+	font-size: 0.9rem;
+	color: white;
+	background: #00a5e3;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+	float: right;
+}
+#product-li>ul:nth-child(2)>li:nth-child(2){
+	font-size: 0.9rem;
+	color: white;
+	background: #ec6d65;
+	padding: 1rem 2rem;
+	border-radius: 0.4rem;
+	margin-top: 3rem;
+}
+.main{
+	width: 100%;
+	padding: 0 0.9rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+.main>p:nth-child(1){
+	margin-top: 1rem;
+}
+#footer-img img{
+	width: 100%;
+	height: auto;
+}

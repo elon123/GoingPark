@@ -1,0 +1,172 @@
+.classify{
+	width: 100%;
+	height: auto;
+	/*position: fixed;*/
+	/*top: 0;*/
+}
+.classify li a{
+	display: inline-block;
+	color: black;
+	line-height: 49px;
+	/*width: 100%;*/
+	/*height: 49px;*/
+	font-size: 18px;
+}
+.classify li a:hover{
+	border-bottom: 1px solid #ec6d65;
+}
+
+.classify li{
+	float: left;
+	width: 33%;
+	height: 50px;
+	text-align: center;
+}
+.classify li:nth-child(2){
+	width: 34%;
+}
+.divClassify{
+	width: 100%;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 45px;
+	z-index: 2;
+}
+.aClassify{
+	display: block;
+	float: left;
+	color: black;
+	width: 33.3%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 16px;
+	background: white;
+	/*margin: 1px 1px 0 0;*/
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #8C8C8C;
+}
+.aClassify:nth-child(3),
+.aClassify:nth-child(3),
+.aClassify:nth-child(9){
+	border-right: none;
+}
+
+.divAllCity{
+	width: 100%;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 45px;
+	z-index: 3;
+}
+.aAllCity{
+	display: block;
+	float: left;
+	color: black;
+	width: 33.3%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 16px;
+	background: white;
+	/*margin: 1px 1px 0 0;*/
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #8C8C8C;
+}
+.aAllCity:nth-child(3n){
+	border-right: none;
+}
+
+
+
+.mask{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 92%;
+	background: #262626;
+	opacity: .4;
+	display: none;
+	z-index: 1;
+}
+.menu{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	bottom: 0;
+	background: white;
+}
+.menu li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+.menu li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+.img{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2px;
+}
+.liImg{
+	position: relative;
+}
+.img-2{
+	width: 20%;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.img-3{
+	position: absolute;
+	right: 1.5rem;
+	bottom: 2.5rem;
+	width: 5%;
+	height: auto;
+}
+.li-p1{
+	position: absolute;
+	left: 1rem;
+	bottom: 1rem;
+	color: white;
+}
+.li-p2{
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+	color: white;
+}
+#sortBox{
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 45px;
+	z-index: 6;
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.liSort{
+	width: 33.3%;
+	height: 40px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	border: 1px solid #CCCCCC;
+}
+
